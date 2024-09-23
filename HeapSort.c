@@ -1,3 +1,5 @@
+//Implementação feita pelo meu professor da disciplina AEDs I;
+
 #include<stdio.h>
 #include<stdlib.h>
 #define TAM_MAX 100
@@ -75,7 +77,7 @@ void heap_aumenta_chave(Heap *h, int i, int chave){
 
 void heap_insere(Heap *h, int chave){
     if(h->tam == TAM_MAX){
-        printf("Heap'est� cheia!");
+        printf("Heap'está cheia!");
         return;
     }
     h->tam ++;
